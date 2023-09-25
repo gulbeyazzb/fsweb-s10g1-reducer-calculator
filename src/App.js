@@ -77,8 +77,8 @@ function App() {
             </div>
 
             <div className="row ce_button">
-              <CalcButton value={0} onClick={clickHandler} />
               <CalcButton value={"CE"} onClick={clearDisplayHandler} />
+              <CalcButton value={0} onClick={clickHandler} />
             </div>
 
             <div className="row">
